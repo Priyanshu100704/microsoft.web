@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 54px;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav1{
+    height: 54px;
+    width: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img1{
+    height: 23px;
+    width: 108px;
+}
+.navDiv{
+    display: flex;
+    align-items: center;
+}
+#navDiv1{
+    height: 54px;
+    width: 129.3;
+    color: #262626;
+    display: flex;
+    align-items: center;
+}
+#span{
+
+}
+#anchor{
+    height: 48px;
+    width: 115.75;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 30px;
+}
+#anchor:hover{
+    color: white;
+    border: 3px dotted white;
+    background-color: #0067B8;
+    border-radius: 5px;
+}
+
+#home{
+    height: 100%;
+    width: 40px;
+text-decoration: none;
+margin-left: 40px;
+padding: 10px;
+font-weight: 600;
+color: #0067B8;
+}
+.dropdown{
+    height: 54px;
+    width: 93.96px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+
+}
+.btn1{
+    background-color: #fff;
+    border: #fff;
+}
+.navDiv2{
+    height: 48px;
+    width: 115.75px;
+   font-size: 13px;
+  
+}
+#anchor{
+    height: 48px;
+    width: 115.75;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+#anchor11{
+    height: 100%;
+    width: 115.75;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+}
+#anchor11:hover{
+    border: 3px dotted #0067B8;
+    height: 100%;
+}
+
+.navDivConn{
+    height: 54px;
+    width: 548.66px;
+    background-color: #fff;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.searchButton{
+    height: 45px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lens{
+    height: 18px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+#btn2{
+    height: 31px;
+    width: 79.61px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#btn3{
+    height: 31px;
+    width: 94.79px;
+    background-color: #fff;
+    border: 0.5px solid black;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.profile{
+    height: 48px;
+    width: 48px;
+    border: 0px solid black;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.fa-regular{
+    height: 10px;
+    width: 15px;
+    margin-top: 15px;
+}
+.nextMargin{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0078D4;
+    height:58px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.layoutContainer{
+    height: 133.6px;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    display: grid;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+#textCenter{
+height: 44.4px;
+width: 100%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 100px;
+font-size: 37px;
+}
+.h4{
+    align-items: center;
+    padding-left: 25%;
+    /* padding-bottom: 100px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link-group{
+    text-align: center;
+    color: #000;
+    height: 40px;
+}
+#anchor2{
+    text-decoration: none;
+    font-size: 16px; 
+    color: rgb(1, 141, 255);  
+}
+.container{
+    height: 47.2px;
+    width: 100%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.boxCon{
+    height: 47.2px;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+}
+.btnBox{
+    height: 100%;
+    width: 100px;
+    border-left: none;
+    border-top: none;
+}
+.btnBox2{
+    height: 100%;
+    width: 100px;
+    border-bottom: none;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-radius: 2px;
+}
+#anch{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+#anch2{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+    border-bottom: none;
+}
+.Row{
+    height: 82.8px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box{
+    height: 38.4px;
+    width: 430.76px;
+    font-size: 29px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* font-weight: bold; */
+    font-weight: 500;
+}
+.tab-win{
+    height: 70.4px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#tabAnc{
+    height: 40px;
+    width: 128.68px;
+    border-radius: 5px;
+    background-color:#0078D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+#tabAnc2{
+    height: 40px;
+    width: 128.68px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+    border: 0px solid black;
+    box-shadow: 0.5px 1px 1px 0.5px grey;
+}
+.container12{
+    height: 1436.8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.fourcont12{
+    height:1136px;
+    width:382px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #dad9d9;
+}
+.boxtake{
+    height:100%;
+    width: 1817px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+#classFouh{
+    height: 73.2px;
+    width: 100%;
+    color: #000;
+    font-size: 29px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#classFousp{
+    height: 49.6px;
+    width: 147.65px;
+    color: #0078D4;
+    font-size: 37px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#classfouspa{
+    height: 21px;
+    width: 72,36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#classFoup{
+    height: 24px;
+    width: 334px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#classfoubtn{
+    height: 39.2px;
+    width: 270px;
+    background-color: #0078D4;
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 13%;
+}
+#fourDivbox{
+    height: 115.2px;
+    width: 382px;
+    text-align: center;
+}
+#ul1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 57.6px;
+    width: 203.48px;
+    font-size: 14px;
+    padding: 0px 0px 24px;
+    font-weight: 500;
+    padding: 0px 0px 24px;
+}
+#ol1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 57.6px;
+    width: 203.48px;
+    font-size: 14px;
+}
+
+.twoBoxContainer{
+    height: 60px;
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: baseline;
+    justify-content: first baseline;
+}
+.fourIn{
+    height: 30.5px;
+    width: 35px;
+    margin-left: 10px;
+    background-color: #0067B8;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#h32{
+    height: 36.8px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#FourInn{
+    height: 100%;
+    width: 100%;
+}
+.boxess{
+       height: 490px;
+       width: 100%;
+      margin-top: 300px;
+}
+.boxess1{
+    height: 490px;
+    width: 100%;
+   margin-top: 190px;
+}
+.boxess2{
+    height: 490px;
+    width: 100%;
+   margin-top: 240px;
+}
